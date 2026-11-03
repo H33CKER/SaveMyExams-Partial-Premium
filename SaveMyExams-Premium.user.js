@@ -15,7 +15,8 @@
 
     const selectors = [
         'button[aria-label="Download notes"]',
-        'a[href="/welcome/your-plan/"]'
+        'a[href="/welcome/your-plan/"]',
+        'div[class*="DownloadRibbon_wrapper"]'
     ];
 
     function resetViewCounters() {
